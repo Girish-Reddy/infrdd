@@ -1,0 +1,101 @@
+[
+  {
+    "id": 43303866,
+    "userName": "Giri",
+    "roomName": "Apple",
+    "currentStatus": "Booked",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 4330343866,
+    "userName": "Hari",
+    "roomName": "Pine Apple",
+    "currentStatus": "Cancelled",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 432345303866,
+    "userName": "Pari",
+    "roomName": "Lemon",
+    "currentStatus": "Booked",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 433234503866,
+    "userName": "Kari",
+    "roomName": "Orange",
+    "currentStatus": "Booked",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 42343302343866,
+    "userName": "Lari",
+    "roomName": "Grapes",
+    "currentStatus": "Available",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  }, {
+    "id": 433032345866,
+    "userName": "Gari",
+    "roomName": "Litchi",
+    "currentStatus": "Booked",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 43303423453866,
+    "userName": "Hiri",
+    "roomName": "Banana",
+    "currentStatus": "Available",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 43234530323866,
+    "userName": "Piri",
+    "roomName": "Blueberry",
+    "currentStatus": "Available",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 433223434503866,
+    "userName": "Kiri",
+    "roomName": "Cherry",
+    "currentStatus": "Booked",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  },
+  {
+    "id": 4233443303866,
+    "userName": "Liri",
+    "roomName": "Chikku",
+    "currentStatus": "Available",
+    "fromDate": "02/07/2020",
+    "toDate": "02/07/2020",
+    "time": "From 9 am to 10am",
+    "agenda": "covid meeting"
+  }
+]

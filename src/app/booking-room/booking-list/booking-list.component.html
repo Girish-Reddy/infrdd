@@ -1,0 +1,69 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Booking List</li>
+    </ol>
+</nav>
+
+<div class="row" *ngIf="bookingData">
+    <div class="col-md-8 form-group">
+        <input class="form-control" [(ngModel)]="filterObj.userName" placeholder="Search User name">
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-primary" (click)="moveToAdd()">Add Booking</button>
+    </div>
+    <div class="col-md-12">
+        <div class="row repo-card">
+            <div class="col-md-1">
+              <h4>User Name</h4>
+            </div>
+            <div class="col-md-1">
+            <h4>Room Name </h4>
+            </div>
+            <div class="col-md-1">
+               <h4>Current Status </h4>
+            </div>
+            <div class="col-md-2">
+                <h4>From </h4> 
+            </div>
+            <div class="col-md-2">
+                <h4>To </h4> 
+            </div>
+            <div class="col-md-2">
+                <h4>Time </h4>  
+            </div>
+            <div class="col-md-2">
+                <h4>Actions </h4>  
+            </div>
+        </div>
+        </div>
+    <ng-container *ngFor="let list of bookingData | filterBy: filterObj; let i = index">
+        <div class="col-md-12">           
+            <div class="row repo-card">
+                <div class="col-md-1">
+                    <h5>{{list.userName}}</h5>
+                </div>
+                <div class="col-md-1">
+                    <h5>{{list.roomName}}</h5>
+                </div>
+                <div class="col-md-1">
+                    <h5>{{list.currentStatus}}</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>{{list.fromDate}}</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>{{list.toDate}}</h5>
+                </div>
+                <div class="col-md-2">
+                    <h5>{{list.time}}</h5>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-danger btn-sm float-right" (click)="deleteRecord(i)">Delete</button>
+                    <button class="btn btn-primary btn-sm float-right"
+                        [routerLink]="['/booking/edit', list.id]">Edit</button>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+    <label *ngIf="(bookingData | filterBy: filterObj).length === 0">No matching repos</label>
+</div>
